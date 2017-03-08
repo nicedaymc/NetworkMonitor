@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_9980ca9464dfa3ae8f4f34e1bdeb66ebf83ff6f1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="101393e975eaf36e3ff40b277ee9a019e077afef">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-10.2.0_07bb37dd97946ee9dd242dee468efbffcf66480b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="aa23e4589287adb431ef59d6c78af79ab8885682">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-10.2.0_fd70a9e0cf6b6bab6b15c6e37a472e023fdaa838/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a3f7595ca32e614b454ceb7b7e241bb037a28e86">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-10.2.0_08dd5ce30a874b7bb2c3fb84e45dbe0fcf847952/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4ef2d91da513c4d7e773ae438fe04d0e4c135957">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-10.2.0_103c74dafe3eb6944398e93041d941bc7974f0ab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="68485f21eeb5d6c9ed82c445d520b9fc81c87108">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-10.2.0_126d6f235545f9c82851b4068d61d5c8f9871d09/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="421a5cebe9ff187c98075c59786e9464c5c67d36">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-10.2.0_0ffc5f8715640cda4095d5f46818d82ff8f6d57d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3aaf1e7b5fe9f4d3ff22c4edc0ead631f7389d30">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-10.2.0_a785e65f4d9f4264272cb9fb926ffaad48e54cc9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4e01b82d664e1a8253b2b9658e74b5da35c8771d">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-10.2.0_1782883593df82483649e455e444334f15eff6a8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_fb0e3a30ba81be17f26d0ee098ae53e2ebc814e8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="94fca868854457ede6df15c902938468c71d579e">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-10.2.0_42ec0814ba48db9d9dfa169f017922d12979060b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_ca635c1b712a49baec68d80ca84a8f2c63d09de1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.0_bdfcc6a1744a89d9d6620d8eae037261e37b381a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.0_997edf445906e52062c7244490333894b6e9e56c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ddb7fed808f4331174b59428ccfc46b3696c9812">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-10.2.0_7a5980a744dec9d0104b3a0c1a361af4bb6831ad/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e7157a9577c983651d6c6ee313813424fe2d8ab6">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-10.2.0_f143bcf6bb57ac36b253073c7df6055e178b5863/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.3.6/526a9f794eab830eae4f23a62c572878b3f491ab/httpclient-4.3.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/httpclient-4.3.6_293153079578af3a43daea3f51963370d1c5acb1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="74c5a91d6510ad42410e8a047d90d2ea6721a0e0">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-10.2.0_b60564c10998d9fc5467b127c8448df872005ffc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.2.0_3f95a7d5eb57e1b5cb3ce27d26e841ca9dd8d496/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="db4aca1c1ec60f2c098d3b6c91cedfb7838f83ed">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-10.2.0_b6d9b0e0668ed10b149bad7ea84dafe0e5c4ccaf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="654b294d429b56fd18392f2b68ad79954f431f8e">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-10.2.0_862a34176881a5f98559f4a1e480b61afee02668/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.9/386a4339ffe52d5d63e80f9bed8d2b1d1a418249/android-async-http-1.4.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/android-async-http-1.4.9_f318da5e711457bad44a7090e0c6274f5aec5f5e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.0_ffc6c4dda29aa866c3106030e3001fe992ad97d9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.2.0_290d41ed921364729d0c75c1f285dc4bdd0557cd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a61e7010aa7be5da53cd1bc5279630510c9a4912">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.2.0_3a368c3165cc73a97787c49dd0a7fa6e64261994/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1bab75be1918fc9871be4da7afe38d7e4d308303">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-10.2.0_16c67b148bb283269ed50ba41b62723dd3ad6dfb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.0_eb43804813bc2229c3ea76e55ae9497a2fab348c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.0_85df3c94680dba92d2c3ddcdefb986250e7173a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_cbb04358de7aecd4292f796526db11cbbd441bd3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6da05b7498da036b5b37c3beb861cd2060929dcd">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-10.2.0_cf13298a0104e66900975fcd657cae522adaa2c9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="444f9de23145e8caba7bf1c1772acad142ea6013">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-10.2.0_ac8b1152fdda840ebe1b7fb0f4bce2236c33821c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9d1d0e1270310e34e2d65afda2bc18605c14cd46">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-10.2.0_6457ab9c44c55afeb911371c97ff20fec560a071/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b831d3902674d096189451d46fce219e2c2904b7">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-10.2.0_8b297802051570ef4a53d2ef91044fc01e03a5d5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="db48dfabe8ecc46681ceca418d6bd61a5339f818">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-10.2.0_a7d9b6e4d09cdecf7964f53e0655b3d73b5ed7e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ab0c7fe28f9506302eb39adf1ebf5858732e18ec">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-10.2.0_7e0159bc2b6c730953942392e11a232e820d66ae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d08bb32b88df3dbcbe1d498c3c57f020b8c521ec">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-10.2.0_00a2e53ab69a96d3556eeecd55eb39b05baa731f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7d14fe9bd2283b2eb7fcab08458aa0357917e138">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-10.2.0_622483012f683cbdfe46aadebd7b55cdb8f4e263/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="48532a016bb0dfbe7970c147ce784598a515406b">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-10.2.0_9c8f8e317e0626adb1e5b5154423b1559747e81d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ca82d5800780b1d53f0f9ab43678d8634a34cddc">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-10.2.0_fd3d61a166367ff32c1c5d80d19c10cde402429d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3f4483afd050f3be12db7838422309446a45daa1">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-10.2.0_cebfc2646e0e87abdda5effe9ff99dc8b9a1e1d5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1df6d719c4e264d66bb98baa5cb637495b8cca66">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-10.2.0_c0bac0aeb403404891324ec07ca2308191539c25/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_e4c41be4deeda22562431e6dbedf281df2c580e6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="857ce7350acf811749c8fd0254d3d39b02aa71f5">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-10.2.0_e4c9dce8f7ba3c3e7d208df6187f796c231f5e97/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_a165974b1a1f2c74820960de51aa5069c40ed22b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.2.0_036dd87e8d3061f5f427212ca96c47a6ca0dcc6c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ce9112e08a027c8620ae693983e38cdbb9f6371b">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.2.0_9dafccd34286b8b582155b475cbb4ee856fa5522/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b47c2863f98864af76e8a66f2bca12f232e0d844">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c9404d4c5c154e3eb84768f409ad5ba1134758a6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="75575883f0348fc5d2be85f23bd10b050095cf17">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-10.2.0_0e8199b3c6919b67554ca1354259f0571ea5077f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_773597a344fe172d114ab57b883683976f103f03/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8fd2e9eadc9d214966ee7f60d6c5a17a335d7533">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-10.2.0_aec5d5813317de8807d820450a80a46eae93aca1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3d6951cb416ebf8c66a32b9480808ca247b68344">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.2.0_fb7a539999dc6c1cfc38b00ed31cc8fba2c12360/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.0_93676c2a1d8824c33a8108fe0ba2f0917a13970a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.firebase/firebase-appindexing/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1fbf3733f36fea63e70373212796e70f9079981f">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-appindexing-10.2.0_1c360382cdc8d4f51461d002ef502b9045920ea1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="90270132a5f1a33584f453c571257dd35e728201">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-10.2.0_f923d797f330704b126fea9b183ead0ce1282672/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_c1d57c11c10502152c0300d23b81218ebbc2cf3a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.2.0_a3f2354ac8a424b45df9789d0533269863149764/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.0_64544b0a5ad9ad8e650aed790171bbb4ce672fb9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="45e0953544711e0b5a2d227732e88cccb82793bc">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-10.2.0_3891050c578ee9745ab9efdbbc8dfa6c1e08597f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0e301f24b283f14b564f660c9abe863af6be5896">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-10.2.0_f58c867ff97b7452f5979ddd5ac05f95d06b4fcd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ea03bbfaed89818f233ee9918fac493f2b63895a">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-10.2.0_f201be1e9a685b253adc7bd17d2bd18104965dc1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_2522023353532d5d2ceb4634b2e8d7c0f33351a0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f8dcc3b04d732dc417cabca6e25d95a73e527d17">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f54db4a220746ae4cdc7f2e70ca6ee6b0a010614/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.0_eecbc0dfd6270e8e595cdb50c5c8d741bf3071b3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="423fb69e69759d8b726fa4a4fb6a1ea9fc86d1cd">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-instantapps-10.2.0_19b813422dbe76a2713bfa27cba6651bde2f329a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8e1d31656bc9f1889283836e025e6cb703acd38a">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-10.2.0_efeeea76bd96c0379d43f37cd5f1c4b5b5639a7e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_83b19d993a142e5f91926fff50764825debf59ed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8438c64f9eb581429dc592f7c9b3156a3d071653">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-v4-impl-10.2.0_64640eafc21625f4a182e5524a220611448ba116/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a9493f008850469ed3fab9b28658919562882aed">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-10.2.0_bf35b79e73d9d10030a06b5f14bceeee2d9adc67/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0f58195bee8a08f35e7d4ee7fd4b0479e570e172">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-10.2.0_9d1ec9e6dc66e12382d96b920a7b80c2cea12e49/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="646b2c48e147b943f0a39842457fdc66d501e4b6">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-10.2.0_8ff43904f2e50fbe028164a846339bf5281c8882/classes.dex" />
+    </item>
+
+</items>
