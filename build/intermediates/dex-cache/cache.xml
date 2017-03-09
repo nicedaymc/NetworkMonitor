@@ -421,7 +421,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="b47c2863f98864af76e8a66f2bca12f232e0d844">
+        sha1="aef9a91a38405b4a758156abbaf71ce57d3ce6d2">
         <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c9404d4c5c154e3eb84768f409ad5ba1134758a6/classes.dex" />
     </item>
     <item
@@ -556,7 +556,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="f8dcc3b04d732dc417cabca6e25d95a73e527d17">
+        sha1="0d8243a7fd0985c9858514c5e78b629ca4ddc5b0">
         <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f54db4a220746ae4cdc7f2e70ca6ee6b0a010614/classes.dex" />
     </item>
     <item

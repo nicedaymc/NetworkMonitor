@@ -1,12 +1,17 @@
 package com.websmithing.gpstracker;
 
+import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.location.Location;
+import android.media.RingtoneManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.IBinder;
+import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -78,6 +83,38 @@ public class LocationService extends Service implements
         } else {
             Log.e(TAG, "unable to connect to google play services.");
         }
+    }
+
+
+    private void checkNetworkStatus(Location location){
+
+    }
+
+    /**
+     * Create and show a simple notification containing the received GCM message.
+     */
+    private void sendNotification(String title, String naam, String nfcId) {
+
+        //Create the intent according to your condition and pass it to pendingintent.
+
+        Intent intent = new Intent(this, GpsTrackerActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        intent.putExtra("naam", naam);
+        intent.putExtra("nfcId",nfcId);
+        //intent.putExtra("Class",NieuweOverledeneActivity.class);
+        PendingIntent pendingIntent = PendingIntent.getActivity(this, 0 /* Request code */, intent, PendingIntent.FLAG_ONE_SHOT);
+        Uri defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
+        NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this)
+                .setSmallIcon(R.mipmap.ic_launcher)
+                .setContentTitle(title)
+                .setContentText(naam)
+                .setAutoCancel(true)
+                .setSound(defaultSoundUri)
+                .setContentIntent(pendingIntent);
+
+        NotificationManager notificationManager =                 (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+
+        notificationManager.notify(0 /* ID of notification */, notificationBuilder.build());
     }
 
     protected void sendLocationDataToWebsite(Location location) {
@@ -178,7 +215,8 @@ public class LocationService extends Service implements
             // onDestroy will be called and stop our location uodates
             if (location.getAccuracy() < 500.0f) {
                 stopLocationUpdates();
-                sendLocationDataToWebsite(location);
+                sendNotification("aaaa","bbb","ccc");
+                //sendLocationDataToWebsite(location);
             }
         }
     }
