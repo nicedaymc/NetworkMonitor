@@ -97,7 +97,7 @@ public class LocationService extends Service implements
 
         //Create the intent according to your condition and pass it to pendingintent.
 
-        Intent intent = new Intent(this, GpsTrackerActivity.class);
+        Intent intent = new Intent(this, WarningActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         intent.putExtra("naam", naam);
         intent.putExtra("nfcId",nfcId);
@@ -215,7 +215,7 @@ public class LocationService extends Service implements
             // onDestroy will be called and stop our location uodates
             if (location.getAccuracy() < 500.0f) {
                 stopLocationUpdates();
-                sendNotification("aaaa","bbb","ccc");
+                sendNotification("You have a false roaming!","Please select your network to home network","ccc");
                 //sendLocationDataToWebsite(location);
             }
         }
