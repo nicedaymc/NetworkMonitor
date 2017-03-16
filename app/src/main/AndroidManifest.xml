@@ -7,6 +7,8 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
 
     <application
         android:allowBackup="true"
@@ -33,11 +35,17 @@
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
-        <receiver android:name=".GpsTrackerAlarmReceiver"></receiver>
+        <receiver android:name=".GpsTrackerAlarmReceiver" />
 
-        <service android:name=".LocationService"></service>
+        <service android:name=".LocationService" />
 
-        <activity android:name=".WarningActivity"></activity>
+        <activity android:name=".WarningActivity" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".WifiActivity"
+            android:label="@string/title_activity_wifi"></activity>
     </application>
 
 </manifest>

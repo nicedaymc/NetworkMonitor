@@ -2,6 +2,15 @@
 <items version="2" >
 
     <item
+        is-multidex="true"
+        jar="/Users/Yapeng/.android/build-cache/bf495321210f80ef9c1fd663334548c3c9b68c73/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e3f55125545a6e51ffaf2334f388feeb9f781347/classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="/Users/Yapeng/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
         jumboMode="false"
@@ -34,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="3febab4867135d267cfacf6da4032042c85828bb">
+        sha1="331ab8f11e22a3a0b3d8686cb6b8039b9ea4fc7f">
         <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f54db4a220746ae4cdc7f2e70ca6ee6b0a010614/classes.dex" />
     </item>
     <item
@@ -117,6 +126,15 @@
         revision="25.0.0"
         sha1="d08bb32b88df3dbcbe1d498c3c57f020b8c521ec">
         <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/pre-dexed/debug/classes_77a1bd8b6f41dae2bbe1366ab294d4260216be30.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/.android/build-cache/be31ba6b4a13750fc9289567894eaf5f3a964a3c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3849031de9f7344616753aac6bf3a8b2a49fc283/classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -209,6 +227,15 @@
         <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/pre-dexed/debug/classes_aff0950a82dd7fce579c336a22781dde960a500d.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="/Users/Yapeng/.android/build-cache/0a7408e91998280144e57abb991f1b7ad55de5e7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5dcb8091e1da31cb06763d567c0f40870d76d77b/classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="/Users/Yapeng/.android/build-cache/c518325e10439714f45ad0767d65d64a43e9b0d8/output/jars/classes.jar"
         jumboMode="false"
@@ -243,6 +270,15 @@
         revision="25.0.0"
         sha1="94fca868854457ede6df15c902938468c71d579e">
         <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/pre-dexed/debug/classes_b24cdc2c08fa7d91141f8b269c2b40af0adf5152.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.0/support-annotations-25.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.0_ad4795f700c349c7019d17d2415a397c6e0ac36a/classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -362,6 +398,15 @@
         <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/pre-dexed/debug/classes_c88033224d5f39d87553971d3fee9dae24df8d73.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="/Users/Yapeng/.android/build-cache/63ecea8d860a95b57f24a5a25ae2c9f6a06906a4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7148daa67f177923727e80db9d3e563017e7f88c/classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="/Users/Yapeng/.android/build-cache/7f6163a927408784111e304627186287eca87a36/output/jars/classes.jar"
         jumboMode="false"
@@ -369,6 +414,15 @@
         revision="25.0.0"
         sha1="646b2c48e147b943f0a39842457fdc66d501e4b6">
         <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/pre-dexed/debug/classes_3b521915c8e486f808c94cd461fa6e5e1f039a64.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/.android/build-cache/05b0423bf3f0df69f88018e95de836a89f843150/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a2085dc0b5048a95bf1500ca161b0be511bcf6ee/classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -479,6 +533,15 @@
         <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/pre-dexed/debug/classes_cf252e01ea14452faf1498182d96d87bf090fe15.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="/Users/Yapeng/.android/build-cache/bcad3078841f8c91c4bef8c171701ae3a0d13f86/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c073e907b545ff30ae36a373f09a22daabfe19b6/classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="/Users/Yapeng/.android/build-cache/45d354821a3ce77b1529b5b677ffb516ff2cce2b/output/jars/classes.jar"
         jumboMode="false"
@@ -567,6 +630,15 @@
         revision="25.0.0"
         sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
         <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/pre-dexed/debug/classes_bad22b604a7a35668531eb64157b406dc7123d81.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/.android/build-cache/85a6d8cf9ac57285649a493a6dd6c88f852260b9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2d40a938fed3418d4b40a1ab70b6583efa2270e0/classes.dex" />
     </item>
     <item
         is-multidex="false"

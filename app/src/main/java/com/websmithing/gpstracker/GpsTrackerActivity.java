@@ -8,13 +8,16 @@ import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.SystemClock;
+import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.RadioGroup;
+import android.widget.Switch;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -22,7 +25,7 @@ import com.google.android.gms.common.GooglePlayServicesUtil;
 
 import java.util.UUID;
 
-public class GpsTrackerActivity extends AppCompatActivity {
+public class GpsTrackerActivity extends AppCompatActivity implements View.OnClickListener{
     private static final String TAG = "GpsTrackerActivity";
 
     // use the websmithing defaultUploadWebsite for testing and then check your
@@ -31,7 +34,8 @@ public class GpsTrackerActivity extends AppCompatActivity {
 
     private EditText txtUserName;
     private EditText txtWebsite;
-    private Button trackingButton;
+    private Button trackingButton, locationButton, wifiButton;
+    private Switch wifiSwitch, locationSwitch;
 
     private boolean currentlyTracking;
     private RadioGroup intervalRadioGroup;
@@ -78,12 +82,69 @@ public class GpsTrackerActivity extends AppCompatActivity {
                     }
                 });
 
+
         trackingButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 trackLocation(view);
             }
         });
+
+
+        locationSwitch=(Switch)findViewById(R.id.location_switch);
+        locationSwitch.setChecked(true);
+        locationSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView,
+                                         boolean isChecked) {
+                // TODO Auto-generated method stub
+                if (isChecked) {
+                    locationButton.setEnabled(true);
+                } else {
+                    locationButton.setEnabled(false);
+
+                }
+            }
+        });
+
+        wifiSwitch=(Switch)findViewById(R.id.wifi_switch);
+        wifiSwitch.setChecked(true);
+        wifiSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView,
+                                         boolean isChecked) {
+                // TODO Auto-generated method stub
+                if (isChecked) {
+                    wifiButton.setEnabled(true);
+                } else {
+                    wifiButton.setEnabled(false);
+                }
+            }
+        });
+
+
+        locationButton=(Button)findViewById(R.id.location_setting);
+        locationButton.setOnClickListener(this);
+        wifiButton=(Button)findViewById(R.id.wifi_select);
+        wifiButton.setOnClickListener(this);
     }
+
+    @Override
+    public void onClick(View v) {
+        // TODO Auto-generated method stub
+        if (v.getId() == R.id.location_setting) {
+            Intent callGPSSettingIntent = new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
+            callGPSSettingIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            this.startActivity(callGPSSettingIntent);
+        }else if(v.getId()==R.id.wifi_select){
+            Intent wifiSelectIntent = new Intent(this, WifiActivity.class);
+            wifiSelectIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            this.startActivity(wifiSelectIntent);
+        }
+    }
+
+
 
     private void saveInterval() {
         if (currentlyTracking) {

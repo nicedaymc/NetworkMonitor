@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.websmithing.gpstracker.GpsTrackerActivity" >
+    <LinearLayout android:id="@+id/header"
+        android:background="#ff347c12"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/wifiTextView"
+        android:layout_alignRight="@+id/wifi_listView"
+        android:layout_alignEnd="@+id/wifi_listView">
+
+
+        <TextView
+            android:id="@+id/item2"
+            android:layout_width="155dp"
+            android:layout_height="32dp"
+            android:width="20dip"
+            android:text="SSID" />
+
+
+        <TextView android:id="@+id/item3"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:width="100dip"
+
+            android:text="BSSID"
+
+            />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/wifi_scan_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan Wifi"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="356dp"
+        android:layout_below="@+id/wifi_listView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/select_ap_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wifi_listView"
+        android:layout_marginLeft="65dp"
+        android:layout_marginStart="65dp"
+        android:layout_toEndOf="@+id/wifi_scan_button"
+        android:layout_toRightOf="@+id/wifi_scan_button"
+        android:text="Add WiFi to Guard"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:id="@+id/wifiTextView"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="Scaned WiFi SSID"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+
+
+    <ListView
+        android:id="@+id/wifi_listView"
+        android:layout_width="324dp"
+        android:layout_height="152dp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_below="@+id/header"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ListView
+        android:id="@+id/selected_WiFi"
+        android:layout_width="324dp"
+        android:layout_height="122dp"
+
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/wifi_scan_button"
+        android:layout_marginTop="16dp"
+        android:text="Select Guard WiFi Guard" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Remove WiFi" />
+</RelativeLayout>
