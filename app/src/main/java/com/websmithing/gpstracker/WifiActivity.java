@@ -81,27 +81,31 @@ public class WifiActivity extends Activity implements View.OnClickListener
             size = size - 1;
             while (size >= 0)
             {
-                HashMap<String, String> item = new HashMap<String, String>();
 
-
-                //String displayItem=results.get(size).SSID + "  " + results.get(size).capabilities;
                 checkIfExist(results.get(size).SSID);
-                item.put(results.get(size).SSID, results.get(size).BSSID);
-                Log.d(TAG, results.get(size).BSSID);
 
-                HashMap<String,String> hashMap=new HashMap<>();
-                hashMap.put("SSID",results.get(size).SSID);
-                hashMap.put("BSSID",results.get(size).BSSID);
-                arraylist.add(hashMap);
+                if (!checkIfExist(results.get(size).SSID)) {
+                    HashMap<String, String> hashMap = new HashMap<>();
+                    hashMap.put("SSID", results.get(size).SSID);
+                    hashMap.put("BSSID", results.get(size).BSSID);
+                    arraylist.add(hashMap);
+                    adapter.notifyDataSetChanged();
+                }
                 size--;
-                adapter.notifyDataSetChanged();
+
             }
         }
         catch (Exception e)
         { }
     }
 
-    public void checkIfExist(String ssid){
+    public boolean checkIfExist(String ssid){
+        for (HashMap item:arraylist){
+            if (item.get("SSID").equals(ssid)){
+                return true;
+            }
+        }
+        return false;
 
     }
 }
