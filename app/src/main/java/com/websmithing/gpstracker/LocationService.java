@@ -216,7 +216,12 @@ public class LocationService extends Service implements
             // onDestroy will be called and stop our location uodates
             if (location.getAccuracy() < 500.0f) {
                 stopLocationUpdates();
-
+                double distance = GeoUtil.distance(GeoUtil.polyLoc,new LatLng(location.getLatitude(),location.getLongitude()));
+                if (GeoUtil.contains(GeoUtil.polyLoc,new LatLng(location.getLatitude(),location.getLongitude()))){
+                    Log.e(TAG, "Your are inside Macau!!! distance="+distance);
+                }else{
+                    Log.e(TAG, "Your are outside Macau!!! distance="+distance);
+                }
                 sendNotification("You have a false roaming!","Please select your network to home network","ccc");
                 //sendLocationDataToWebsite(location);
             }

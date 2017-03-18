@@ -5,6 +5,10 @@ package com.websmithing.gpstracker;
  */
 
 public class LatLng {
+        public LatLng(double lat, double lng){
+                latitude=lat;
+                longitude=lng;
+        }
 
         double latitude;
         double longitude;

@@ -21,6 +21,33 @@ public class GeoUtil {
 
     public static final double DEGREES_TO_RADIANS = Math.PI / 180;
 
+    public static ArrayList<LatLng> polyLoc =new ArrayList();
+    static{
+
+        polyLoc.add(new LatLng(22.212836, 113.558870));
+        polyLoc.add(new LatLng(22.215706, 113.550847));
+        polyLoc.add(new LatLng(22.217097, 113.550826));
+        polyLoc.add(new LatLng(22.216976, 113.543734));
+        polyLoc.add(new LatLng(22.212945, 113.541265));
+        polyLoc.add(new LatLng(22.213639, 113.535804));
+        polyLoc.add(new LatLng(22.212209, 113.533170));
+        polyLoc.add(new LatLng(22.201616, 113.536021));
+        polyLoc.add(new LatLng(22.194690, 113.534645));
+        polyLoc.add(new LatLng(22.184810, 113.526953));
+        polyLoc.add(new LatLng(22.156902, 113.539889));
+        polyLoc.add(new LatLng(22.144340, 113.549497));
+        polyLoc.add(new LatLng(22.136859, 113.549401));
+        polyLoc.add(new LatLng(22.136099, 113.539561));
+        polyLoc.add(new LatLng(22.123641, 113.540610));
+        polyLoc.add(new LatLng(22.118631, 113.548075));
+        polyLoc.add(new LatLng(22.106592, 113.550038));
+        polyLoc.add(new LatLng(22.109859, 113.574191));
+        polyLoc.add(new LatLng(22.134473, 113.603584));
+        polyLoc.add(new LatLng(22.173183, 113.587079));
+        polyLoc.add(new LatLng(22.190888, 113.567161));
+        polyLoc.add(new LatLng(22.211297, 113.562463));
+    }
+
     /**
      * Calculates a three-dimensional point in the
      * World Geodetic System (WGS84) from latitude and longitude.
@@ -73,7 +100,7 @@ public class GeoUtil {
         for (int i=0;i<polyLoc.size();i++){
             LatLng p1=polyLoc.get(i);
             Point3D p1_3D = latLonToPoint3D(p1.latitude,p1.longitude);
-            LatLng p2=new LatLng();
+            LatLng p2;
             if (i<polyLoc.size()-1){
                 p2=polyLoc.get(i+1);
             }else{
