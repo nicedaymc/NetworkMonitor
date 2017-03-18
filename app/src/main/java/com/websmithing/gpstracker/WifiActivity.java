@@ -20,6 +20,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+
 public class WifiActivity extends Activity implements View.OnClickListener
 {
     private static final String TAG = "WifiActivity";
@@ -30,7 +31,7 @@ public class WifiActivity extends Activity implements View.OnClickListener
     int size = 0;
     List<ScanResult> results;
 
-    String ITEM_KEY = "key";
+
     ArrayList<HashMap<String, String>> arraylist = new ArrayList<HashMap<String, String>>();
     SimpleAdapter adapter;
 
@@ -46,7 +47,7 @@ public class WifiActivity extends Activity implements View.OnClickListener
         buttonScan.setOnClickListener(this);
         lv = (ListView)findViewById(R.id.wifi_listView);
 
-        wifi = (WifiManager) getSystemService(Context.WIFI_SERVICE);
+        wifi = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
         if (wifi.isWifiEnabled() == false)
         {
             Toast.makeText(getApplicationContext(), "wifi is disabled..making it enabled", Toast.LENGTH_LONG).show();
