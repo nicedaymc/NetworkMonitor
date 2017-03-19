@@ -2,22 +2,40 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/Users/yapeng/.android/build-cache/675b04790844ad973b26cbba1eace58bf8c5941e/output/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4dcc461522366c8aaeb81081324b8f5c452b2e49">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f54db4a220746ae4cdc7f2e70ca6ee6b0a010614/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/.android/build-cache/96e550b0e635d95020039a5b4b0c69e05d6ac036/output/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
-        <dex dex="/Users/yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/pre-dexed/debug/classes_814c35ad117cba740706aca4a3d743f53c215b42.jar" />
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3edaa7840cb83ce7bd02a6ce7eaeaee48c6a138e/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/yapeng/.android/build-cache/ad7c34ce11811b5d8e1eb514a21b0ff40e20125e/output/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/Yapeng/.android/build-cache/ac84c2d093a34c6d30e77638969a18b850eb63b4/output/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
-        <dex dex="/Users/yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/pre-dexed/debug/classes_77a3d655271f7de2620de18cc7f78aa3db6e3292.jar" />
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bd55747c883e5da480629574ab697280383f793d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c9404d4c5c154e3eb84768f409ad5ba1134758a6/classes.dex" />
     </item>
 
 </items>
