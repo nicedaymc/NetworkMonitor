@@ -81,8 +81,8 @@ public class WifiActivity extends Activity implements View.OnClickListener
                // Toast.makeText(WifiActivity.this, "" + position, Toast.LENGTH_SHORT).show();
             }
         });
-        this.selectedAdapter=new SimpleAdapter(this, arraylist, R.layout.grid_item, from, to) ;
-        selectedlv.setAdapter(this.adapter);
+        this.selectedAdapter=new SimpleAdapter(this, selectedArraylist, R.layout.grid_item, from, to) ;
+        selectedlv.setAdapter(this.selectedAdapter);
         selectedlv.setOnItemClickListener(new AdapterView.OnItemClickListener()
         {
             @Override
