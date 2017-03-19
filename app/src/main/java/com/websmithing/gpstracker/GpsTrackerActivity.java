@@ -25,6 +25,8 @@ import com.google.android.gms.common.GooglePlayServicesUtil;
 
 import java.util.UUID;
 
+import static android.webkit.ConsoleMessage.MessageLevel.LOG;
+
 public class GpsTrackerActivity extends AppCompatActivity implements View.OnClickListener{
     private static final String TAG = "GpsTrackerActivity";
 
@@ -61,6 +63,8 @@ public class GpsTrackerActivity extends AppCompatActivity implements View.OnClic
         intervalRadioGroup = (RadioGroup)findViewById(R.id.intervalRadioGroup);
         trackingButton = (Button)findViewById(R.id.trackingButton);
         txtUserName.setImeOptions(EditorInfo.IME_ACTION_DONE);
+
+
 
         SharedPreferences sharedPreferences = this.getSharedPreferences("com.websmithing.gpstracker.prefs", Context.MODE_PRIVATE);
         currentlyTracking = sharedPreferences.getBoolean("currentlyTracking", false);
@@ -260,6 +264,7 @@ public class GpsTrackerActivity extends AppCompatActivity implements View.OnClic
     private boolean textFieldsAreEmptyOrHaveSpaces() {
         String tempUserName = txtUserName.getText().toString().trim();
         String tempWebsite = txtWebsite.getText().toString().trim();
+        Log.e(TAG, tempUserName+tempWebsite);
 
         if (tempWebsite.length() == 0 || hasSpaces(tempWebsite) || tempUserName.length() == 0 || hasSpaces(tempUserName)) {
             Toast.makeText(this, R.string.textfields_empty_or_spaces, Toast.LENGTH_LONG).show();
@@ -290,7 +295,8 @@ public class GpsTrackerActivity extends AppCompatActivity implements View.OnClic
         }
 
         txtWebsite.setText(sharedPreferences.getString("defaultUploadWebsite", defaultUploadWebsite));
-        txtUserName.setText(sharedPreferences.getString("userName", ""));
+        //txtUserName.setText(sharedPreferences.getString("userName", ""));
+        txtUserName.setText("test");
     }
 
     private boolean checkIfGooglePlayEnabled() {

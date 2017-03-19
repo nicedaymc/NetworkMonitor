@@ -13,6 +13,7 @@ import android.os.Bundle;
 import android.os.IBinder;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
@@ -215,6 +216,12 @@ public class LocationService extends Service implements
             // onDestroy will be called and stop our location uodates
             if (location.getAccuracy() < 500.0f) {
                 stopLocationUpdates();
+                double distance = GeoUtil.distance(GeoUtil.polyLoc,new LatLng(location.getLatitude(),location.getLongitude()));
+                if (GeoUtil.contains(GeoUtil.polyLoc,new LatLng(location.getLatitude(),location.getLongitude()))){
+                    Log.e(TAG, "Your are inside Macau!!! distance="+distance);
+                }else{
+                    Log.e(TAG, "Your are outside Macau!!! distance="+distance);
+                }
                 sendNotification("You have a false roaming!","Please select your network to home network","ccc");
                 //sendLocationDataToWebsite(location);
             }
@@ -240,11 +247,13 @@ public class LocationService extends Service implements
         locationRequest.setInterval(1000); // milliseconds
         locationRequest.setFastestInterval(1000); // the fastest rate in milliseconds at which your app can handle location updates
         locationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
-
-        LocationServices.FusedLocationApi.requestLocationUpdates(
-                googleApiClient, locationRequest, this);
+        try {
+            LocationServices.FusedLocationApi.requestLocationUpdates(
+                    googleApiClient, locationRequest, this);
+        } catch (SecurityException e) {
+            Toast.makeText(getApplicationContext(), "Please allow your app to use GPS", Toast.LENGTH_LONG).show(); // lets the user know there is a problem with the gps
+        }
     }
-
     @Override
     public void onConnectionFailed(ConnectionResult connectionResult) {
         Log.e(TAG, "onConnectionFailed");
