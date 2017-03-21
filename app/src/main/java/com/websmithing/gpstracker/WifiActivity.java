@@ -44,7 +44,7 @@ public class WifiActivity extends Activity implements View.OnClickListener
     ArrayList<HashMap<String, String>> arraylist = new ArrayList<HashMap<String, String>>();
     ArrayList<HashMap<String, String>> selectedArraylist = new ArrayList<HashMap<String, String>>();
     SimpleAdapter adapter, selectedAdapter;
-
+WifiReceiver wifiReceiver;
 
 
 
@@ -100,15 +100,18 @@ public class WifiActivity extends Activity implements View.OnClickListener
             }
         });
 
-        registerReceiver(new BroadcastReceiver()
-        {
-            @Override
-            public void onReceive(Context c, Intent intent)
-            {
-                results = wifi.getScanResults();
-                size = results.size();
-            }
-        }, new IntentFilter(WifiManager.SCAN_RESULTS_AVAILABLE_ACTION));
+        wifiReceiver = new WifiReceiver();
+
+        registerReceiver(wifiReceiver, new IntentFilter(WifiManager.SCAN_RESULTS_AVAILABLE_ACTION));
+        loadUserSettings();
+
+    }
+
+    @Override
+    public void onDestroy(){
+        unregisterReceiver(wifiReceiver);
+        super.onDestroy();
+
     }
 
     public void onClick(View v)
@@ -177,14 +180,44 @@ public class WifiActivity extends Activity implements View.OnClickListener
 
     }
 
-    private void saveUserSettings() {
+    private  void loadUserSettings(){
+        SharedPreferences sharedPreferences = this.getSharedPreferences("com.websmithing.gpstracker.prefs", Context.MODE_PRIVATE);
+        String savedWifi;
+        savedWifi=sharedPreferences.getString("selectedWiFi", "");
+        Log.e("TAG","Load saved wifi:"+savedWifi);
+        String[] allwifi=savedWifi.split("|");
+        selectedArraylist.clear();
+        /*
+        for (int i=0;i<allwifi.length;i++){
+            HashMap<String, String> hashMap = new HashMap<>();
+            String[] aWifi = allwifi[i].split(",");
+            hashMap.put("SSID", aWifi[0]);
+            hashMap.put("BSSID", aWifi[1]);
+            selectedArraylist.add(hashMap);
+        }*/
+        adapter.notifyDataSetChanged();
 
+}
+
+    private void saveUserSettings() {
+        String selectedWiFi=ArrayToString();
+        Log.e("TAG","ready to save selected WiFi:"+selectedWiFi);
         SharedPreferences sharedPreferences = this.getSharedPreferences("com.websmithing.gpstracker.prefs", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putString("selectedWiFi",ArrayToString());
+        editor.putString("selectedWiFi",selectedWiFi);
 
 
     }
+
+    class WifiReceiver extends BroadcastReceiver{
+        @Override
+        public void onReceive(Context c, Intent intent)
+        {
+            results = wifi.getScanResults();
+            size = results.size();
+        }
+    }
+
 
 
 }
