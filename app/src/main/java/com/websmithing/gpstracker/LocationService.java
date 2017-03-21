@@ -47,6 +47,7 @@ public class LocationService extends Service implements
     private boolean currentlyProcessingLocation = false;
     private LocationRequest locationRequest;
     private GoogleApiClient googleApiClient;
+    int iii=0;
 
     @Override
     public void onCreate() {
@@ -251,6 +252,7 @@ public class LocationService extends Service implements
             LocationServices.FusedLocationApi.requestLocationUpdates(
                     googleApiClient, locationRequest, this);
         } catch (SecurityException e) {
+            e.printStackTrace();
             Toast.makeText(getApplicationContext(), "Please allow your app to use GPS", Toast.LENGTH_LONG).show(); // lets the user know there is a problem with the gps
         }
     }

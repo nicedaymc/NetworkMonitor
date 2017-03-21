@@ -4,6 +4,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.SharedPreferences;
 import android.net.wifi.ScanResult;
 import android.net.wifi.WifiManager;
 import android.os.Bundle;
@@ -21,6 +22,8 @@ import android.widget.Toast;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.List;
 
@@ -31,11 +34,11 @@ public class WifiActivity extends Activity implements View.OnClickListener
     WifiManager wifi;
     ListView lv, selectedlv;
     TextView textStatus;
-    Button buttonScan, buttonAddWiFi;
+    Button buttonScan, buttonAddWiFi, removeButton,okButton;
     int size = 0;
     List<ScanResult> results;
     int selectedPosition=-1;
-    int selectedToRemove=-1;
+    int removePosition=-1;
 
 
     ArrayList<HashMap<String, String>> arraylist = new ArrayList<HashMap<String, String>>();
@@ -57,10 +60,15 @@ public class WifiActivity extends Activity implements View.OnClickListener
         buttonScan.setOnClickListener(this);
         buttonAddWiFi=(Button) findViewById(R.id.select_ap_button);
         buttonAddWiFi.setOnClickListener(this);
+        removeButton=(Button) findViewById(R.id.removeButton);
+        removeButton.setOnClickListener(this);
+        okButton=(Button)findViewById(R.id.okButton);
+        okButton.setOnClickListener(this);
+
         lv = (ListView)findViewById(R.id.wifi_listView);
         selectedlv=(ListView)findViewById(R.id.selected_WiFi);
 
-        wifi = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
+        wifi = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);//getApplicationContext().getSystemService(Context.WIFI_SERVICE);
         if (wifi.isWifiEnabled() == false)
         {
             Toast.makeText(getApplicationContext(), "wifi is disabled..making it enabled", Toast.LENGTH_LONG).show();
@@ -88,7 +96,7 @@ public class WifiActivity extends Activity implements View.OnClickListener
             @Override
             public void onItemClick(AdapterView<?> arg0, View arg1,int position, long arg3)
             {
-                selectedToRemove=position;
+                removePosition=position;
             }
         });
 
@@ -134,6 +142,17 @@ public class WifiActivity extends Activity implements View.OnClickListener
             }
         }else if (v.getId()==R.id.select_ap_button){
 
+
+            HashMap<String,String> hashMap=arraylist.get(selectedPosition);
+            selectedArraylist.add(hashMap);
+            selectedAdapter.notifyDataSetChanged();
+
+
+        }else if (v.getId()==R.id.removeButton){
+
+        }else if (v.getId()==R.id.okButton){
+            saveUserSettings();
+            super.onBackPressed();
         }
 
     }
@@ -148,9 +167,22 @@ public class WifiActivity extends Activity implements View.OnClickListener
 
     }
 
-    private boolean saveUserSettings() {
+    private String ArrayToString(){
+        StringBuffer sb = new StringBuffer();
+        for (Enumeration e = Collections.enumeration(selectedArraylist);e.hasMoreElements();){
+            HashMap <String,String> hashMap=(HashMap)e.nextElement();
+            sb.append(hashMap.get("SSID")+","+hashMap.get("BSSID")+"|");
+        }
+        return sb.toString();
 
-        return false;
+    }
+
+    private void saveUserSettings() {
+
+        SharedPreferences sharedPreferences = this.getSharedPreferences("com.websmithing.gpstracker.prefs", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString("selectedWiFi",ArrayToString());
+
 
     }
 
