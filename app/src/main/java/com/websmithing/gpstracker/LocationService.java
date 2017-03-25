@@ -268,4 +268,11 @@ public class LocationService extends Service implements
     public void onConnectionSuspended(int i) {
         Log.e(TAG, "GoogleApiClient connection has been suspend");
     }
+
+    public boolean isRoaming(){
+        boolean isRoaming =false;
+
+
+        return isRoaming;
+    }
 }

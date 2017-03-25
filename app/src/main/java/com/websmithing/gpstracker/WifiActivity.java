@@ -20,12 +20,15 @@ import android.widget.SimpleAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.gson.Gson;
+
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.List;
+import com.google.gson.internal.LinkedTreeMap;
 
 
 public class WifiActivity extends Activity implements View.OnClickListener
@@ -174,6 +177,7 @@ WifiReceiver wifiReceiver;
         StringBuffer sb = new StringBuffer();
         for (Enumeration e = Collections.enumeration(selectedArraylist);e.hasMoreElements();){
             HashMap <String,String> hashMap=(HashMap)e.nextElement();
+
             sb.append(hashMap.get("SSID")+","+hashMap.get("BSSID")+"|");
         }
         return sb.toString();
@@ -185,27 +189,48 @@ WifiReceiver wifiReceiver;
         String savedWifi;
         savedWifi=sharedPreferences.getString("selectedWiFi", "");
         Log.e("TAG","Load saved wifi:"+savedWifi);
-        String[] allwifi=savedWifi.split("|");
+        /*if (!savedWifi.equals("")) {
+            String[] allwifi = savedWifi.split("|");
+            selectedArraylist.clear();
+
+            for (int i = 0; i < allwifi.length; i++) {
+                if (!allwifi[i].equals("")) {
+                    Log.e(TAG,allwifi[i]);
+                    HashMap<String, String> hashMap = new HashMap<>();
+                    String[] aWifi = allwifi[i].split(",");
+                    hashMap.put("SSID", aWifi[0]);
+                    hashMap.put("BSSID", aWifi[1]);
+                    selectedArraylist.add(hashMap);
+                }
+            }*/
+        Gson gson=new Gson();
         selectedArraylist.clear();
-        /*
-        for (int i=0;i<allwifi.length;i++){
-            HashMap<String, String> hashMap = new HashMap<>();
-            String[] aWifi = allwifi[i].split(",");
-            hashMap.put("SSID", aWifi[0]);
-            hashMap.put("BSSID", aWifi[1]);
+       ArrayList al =gson.fromJson(savedWifi,ArrayList.class);
+        for (Enumeration e=Collections.enumeration(al);e.hasMoreElements();){
+            com.google.gson.internal.LinkedTreeMap<String, String> aWifi=(com.google.gson.internal.LinkedTreeMap)e.nextElement();
+            HashMap <String,String> hashMap=new HashMap<>();
+            hashMap.put("SSID",aWifi.get("SSID"));
+            hashMap.put("BSSID",aWifi.get("BSSID"));
             selectedArraylist.add(hashMap);
-        }*/
-        adapter.notifyDataSetChanged();
+            //Log.e(TAG, aWifi.get("SSID")+aWifi.get("BSSID"));
+        }
+
+
+
+        selectedAdapter.notifyDataSetChanged();
+        //}
 
 }
 
     private void saveUserSettings() {
         String selectedWiFi=ArrayToString();
-        Log.e("TAG","ready to save selected WiFi:"+selectedWiFi);
+        //Log.e("TAG","ready to save selected WiFi:"+selectedWiFi);
         SharedPreferences sharedPreferences = this.getSharedPreferences("com.websmithing.gpstracker.prefs", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putString("selectedWiFi",selectedWiFi);
-
+        Gson gson=new Gson();
+        String json=gson.toJson(selectedArraylist);
+        editor.putString("selectedWiFi",json);
+        editor.commit();
 
     }
 

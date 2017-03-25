@@ -19,5 +19,14 @@
         sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
         <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c9404d4c5c154e3eb84768f409ad5ba1134758a6/classes.dex" />
     </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Yapeng/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.2/f1bc476cc167b18e66c297df599b2377131a8947/gson-2.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="/Users/Yapeng/StudioProjects/NetworkMonitor/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.6.2_13db1094dab042125f0ab49ff4b7db922b5a9095/classes.dex" />
+    </item>
 
 </items>
