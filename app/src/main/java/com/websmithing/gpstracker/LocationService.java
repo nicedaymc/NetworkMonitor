@@ -220,6 +220,7 @@ public class LocationService extends Service implements
                 double distance = GeoUtil.distance(GeoUtil.polyLoc,new LatLng(location.getLatitude(),location.getLongitude()));
                 if (GeoUtil.contains(GeoUtil.polyLoc,new LatLng(location.getLatitude(),location.getLongitude()))){
                     Log.e(TAG, "Your are inside Macau!!! distance="+distance);
+                    
                 }else{
                     Log.e(TAG, "Your are outside Macau!!! distance="+distance);
                 }
