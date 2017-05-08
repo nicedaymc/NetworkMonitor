@@ -49,6 +49,7 @@ public class LocationService extends Service implements
     private GoogleApiClient googleApiClient;
     int iii=0;
 
+
     @Override
     public void onCreate() {
         super.onCreate();
